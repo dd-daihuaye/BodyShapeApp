@@ -16,7 +16,7 @@ struct FillBarView: View {
         GeometryReader { geometry in
             ZStack(alignment: .leading) {
                 RoundedRectangle(cornerRadius: 10)
-                    .fill(colorBG.opacity(0.7))
+                    .fill(colorBG)
                     .frame(width: .infinity, height: barWidth)
                 RoundedRectangle(cornerRadius: 10)
                     .fill(colorFill)

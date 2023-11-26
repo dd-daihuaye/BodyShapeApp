@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7ADC4D92B0C427400A58690 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ADC4D82B0C427400A58690 /* CircleImageView.swift */; };
+		C7ADC4DB2B0C4CFD00A58690 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ADC4DA2B0C4CFD00A58690 /* ButtonsView.swift */; };
 		C7D86E782AF845F3007F0BF5 /* BodyShapeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D86E772AF845F3007F0BF5 /* BodyShapeAppApp.swift */; };
 		C7D86E7A2AF845F3007F0BF5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D86E792AF845F3007F0BF5 /* DashboardView.swift */; };
 		C7D86E7C2AF845F5007F0BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D86E7B2AF845F5007F0BF5 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7ADC4D82B0C427400A58690 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		C7ADC4DA2B0C4CFD00A58690 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		C7D86E742AF845F3007F0BF5 /* BodyShapeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyShapeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D86E772AF845F3007F0BF5 /* BodyShapeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyShapeAppApp.swift; sourceTree = "<group>"; };
 		C7D86E792AF845F3007F0BF5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				C7D86E8E2AFDE154007F0BF5 /* WeightView.swift */,
 				C7D86E902B071CB5007F0BF5 /* FillBarView.swift */,
 				C7D86E922B072112007F0BF5 /* DataSummaryView.swift */,
+				C7ADC4D82B0C427400A58690 /* CircleImageView.swift */,
+				C7ADC4DA2B0C4CFD00A58690 /* ButtonsView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -164,10 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7D86E8F2AFDE154007F0BF5 /* WeightView.swift in Sources */,
+				C7ADC4D92B0C427400A58690 /* CircleImageView.swift in Sources */,
 				C7D86E7A2AF845F3007F0BF5 /* DashboardView.swift in Sources */,
 				C7D86E8B2AFDDB40007F0BF5 /* IconRight.swift in Sources */,
 				C7D86E932B072112007F0BF5 /* DataSummaryView.swift in Sources */,
 				C7D86E782AF845F3007F0BF5 /* BodyShapeAppApp.swift in Sources */,
+				C7ADC4DB2B0C4CFD00A58690 /* ButtonsView.swift in Sources */,
 				C7D86E912B071CB5007F0BF5 /* FillBarView.swift in Sources */,
 				C7D86E8D2AFDDE2E007F0BF5 /* WelcomeMessageView.swift in Sources */,
 				C7D86E862AFDD427007F0BF5 /* Constants.swift in Sources */,
